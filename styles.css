@@ -1,0 +1,107 @@
+body {
+    margin: 8px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.leftside {
+    display: flex;
+    font-size: 20px;
+}
+
+.hometext {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-wrapper > .leftside > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid #c3073f;
+}
+
+.nav-link-wrapper a:hover {
+    color:  #c3073f;
+}
+
+.rightside {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.social-media1 {
+    position: absolute;
+    left: 1620px;
+    top: 48px;
+}
+
+.social-media2 {
+    position: absolute;
+    left: 1660px;
+    top: 48px;
+}
+
+.button1 {
+    background-color: #1a1a1d;
+    color: #c3073f;
+    border: 2px solid #c3073f;
+    border-radius: 10%;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+    left: 838px;
+
+}
+
+#number {
+    color: #c3073f;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.clickertext {
+    color: #c3073f;
+    font-size: 20px;
+    position: relative;
+    left: 37px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.snaketext {
+    color: white;
+    font-family: 'Work sans', sans-serif;
+}
+
+#board {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+}
